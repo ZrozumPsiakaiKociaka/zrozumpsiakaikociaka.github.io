@@ -28,6 +28,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/32paw.png" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 </head>
 
 <body>
@@ -87,9 +88,9 @@
                 <div class="col-md-5 col-lg-5 col-xl-4">
                     <div>
                         <form class="p-3 p-xl-4" method="post" action="https://formcarry.com/s/g8cgHo91vc">
-                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Imie i Nazwisko"></div>
-                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div>
-                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Wiadomość"></textarea></div>
+                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Imie i Nazwisko" required=""></div>
+                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email" required=""></div>
+                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Wiadomość" required=""></textarea></div>      <div class="h-captcha" data-sitekey="6024e666-ed56-4060-bf4d-a74c2a6a55e0"></div>
                             <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
                         </form>
                     </div>
